@@ -1,0 +1,36 @@
+body {
+    height: 100%;
+    font-family: "Muli", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+h6 {
+    margin: 0;
+    color: #111111;
+    font-weight: 400;
+    font-family: "Muli", sans-serif;
+}
+
+p {
+    font-size: 16px;
+    font-family: "Muli", sans-serif;
+    color: #636363;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 0 15px 0;
+}
+
+.success-checkout {
+    height: 100vh;
+}
+
+.primary-btn {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 30px;
+    color: #ffffff;
+    background: crimson;
+    text-transform: uppercase;
+    border-radius: 10px;
+}

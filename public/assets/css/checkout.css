@@ -1,0 +1,130 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+  
+.bg{
+    /* The image used */
+    background-image: url("../../images/test.jpg");
+  
+    /* Full height */
+    height: 75%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.header #logo{
+    font-size: 40px;
+    color: crimson;
+}
+
+.header #secure{
+  color: #939ab1d0;
+}
+
+.title{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(70, 70, 70);
+}
+
+.barcode{
+  font-family: 'Poppins';
+  font-weight: 400;
+  color: rgb(70, 70, 70);
+}
+
+.item{
+  font-family: 'Poppins';
+  font-weight: 400;
+  color: rgb(70, 70, 70);
+}
+
+.scrollable{
+  background-color: #FFFFFF;
+  border-collapse: collapse;
+  border-radius: 8px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #d3d3d3d0;
+  border: none;
+  max-height:550px; overflow:auto;  box-shadow: 5px 10px 18px #d3d3d3d0;
+}
+
+.item table thead{
+  background-color: #F5F5F5;
+  color: #939ab1d0;
+}
+
+.proceed-checkout ul {
+  border: 2px solid #ebebeb;
+  border-radius: 8px;
+  background: #f3f3f3;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 16px;
+  padding-bottom: 20px;
+  box-shadow: 5px 10px 18px #d3d3d3d0;
+}
+
+.proceed-checkout ul li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: #252525;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.proceed-checkout ul li.subtotal {
+  font-weight: 400;
+  text-transform: capitalize;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 14px;
+}
+
+.proceed-checkout ul li.subtotal span {
+  font-weight: 700;
+}
+
+.proceed-checkout ul li.cart-total {
+  padding-top: 10px;
+}
+
+.proceed-checkout ul li.cart-total span {
+  color: #e7ab3c;
+}
+
+.proceed-checkout ul li span {
+  float: right;
+}
+
+.proceed-checkout .proceed-btn {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  background: crimson;
+  text-transform: uppercase;
+  border-radius: 8px;
+  padding: 15px 25px 14px 25px;
+  display: block;
+  text-align: center;
+  box-shadow: 5px 10px 18px #d3d3d3d0;
+}
+
+.tips{
+  font-size: 13px;
+}
+
+.alert {
+   line-height:30%;    
+}
